@@ -7,7 +7,8 @@ https://www.luiztools.com.br/post/tutorial-nodejs-com-mongodb/
 Para executar o projeto na maquina local.
 npm start
 
-Arquivo para criar o banco de dos MongoDB
+Banco de dados:  MongoDB
+Arquivo para criar o banco:
 Banco-de-dados-mongodb
 
 Descrição do Projeto:
