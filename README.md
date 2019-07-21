@@ -8,6 +8,8 @@ Para executar o projeto na maquina local.
 npm start
 
 Banco de dados:  MongoDB
+
+
 Arquivo para criar o banco:
 Banco-de-dados-mongodb
 
