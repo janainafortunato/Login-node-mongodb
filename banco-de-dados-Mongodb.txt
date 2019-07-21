@@ -1,0 +1,31 @@
+Criando o banco de dados nodetest1.
+
+Para iniciar o banco, entre na pasta data pelo o cmd e digite mongod.
+Depois abra outro cmd e entre na pasta bin dentro da pasta do mongodb para executar o servidor.
+1- Digite no console cliente.
+use nodetest1
+
+2- Inserindo os dados 
+{
+"id": 
+"username":
+"email":
+}
+Digite no console do cliente.
+db.usercollection.insert({ "username" : "testuser1", "email" : "testuser1@testdomain.com" })
+
+3-Verificar se os registros entrou no banco.
+db.usercollection.find().pretty()
+
+4-Adicionar mais registros no banco.
+linha 1-> newstuff = [{ "username" : "testuser2", "email" : "testuser2@testdomain.com" }, { "username" : "testuser3", "email" : "testuser3@testdomain.com" }]
+linha 2-> db.usercollection.insert(newstuff);
+
+Observação: Para criar o banco de dados é necessario seguir esses passos.
+
+
+
+
+
+
+
